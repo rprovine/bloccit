@@ -13,6 +13,10 @@ group :development do
   gem 'sqlite3'
 end
 
+group :production do
+  gem 'rails_12factor'
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
